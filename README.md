@@ -15,7 +15,7 @@ data/Twitter_image/twitter2017_images: Image data from the twitter2017 dataset
 - Generate    train.pkl     dev.pkl     test.pkl   
 - Generate    train.graph   dev.graph   test.graph
 - The original tweets, images and sentiment annotations can be downloaded from [https://drive.google.com/file/d/1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g/view]
-- Download the pre-trained ResNet-152 via this link (https://download.pytorch.org/models/resnet152-b121ed2d.pth),rename to resnet152.pth and put the pre-trained ResNet-152 model under the folder './Resnet/" 
+- Download the pre-trained ResNet-152 via this link (https://download.pytorch.org/models/resnet152-b121ed2d.pth),rename to resnet152.pth and put the pre-trained ResNet-152 model under the folder './resnet/resnet" 
 - Download roberta-base  https://huggingface.co/roberta-base/tree/main
 
 ## Requirement
