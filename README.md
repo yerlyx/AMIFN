@@ -21,8 +21,6 @@ data/Twitter_image/twitter2017_images: Image data from the twitter2017 dataset
 ## Requirement
 * torch
 * transformers
-* scikit-learn
-* opencv-python
 * tqdm
 
 
