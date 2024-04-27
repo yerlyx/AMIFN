@@ -32,8 +32,8 @@ data/Twitter_image/twitter2017_images: Image data from the twitter2017 dataset
 ```
 bash train.sh
 ```
- If you want to train and test on the MASAD dataset,please be aware of modifying three labels to two labels in the relevant files.
+
  ## Acknowledgements
 - Most of the codes are based on the codes provided by [huggingface](https://github.com/huggingface/transformers).
-- 
+- Some code is based on the code of ITM  many thanks!  [ITM](https://github.com/NUSTM/ITM)
 
