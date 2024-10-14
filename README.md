@@ -15,14 +15,12 @@ data/Twitter_image/twitter2017_images: Image data from the twitter2017 dataset
 - Generate    train.pkl     dev.pkl     test.pkl   (look at the file DataProcessor)
 - Generate    train.graph   dev.graph   test.graph (look at the file DataProcessor)
 - The original tweets, images and sentiment annotations can be downloaded from [https://drive.google.com/file/d/1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g/view]
-- Download the pre-trained ResNet-152 via this link (https://download.pytorch.org/models/resnet152-b121ed2d.pth),rename to resnet152.pth and put the pre-trained ResNet-152 model under the folder './Resnet/" 
+- Download the pre-trained ResNet-152 via this link (https://download.pytorch.org/models/resnet152-b121ed2d.pth),rename to resnet152.pth and put the pre-trained ResNet-152 model under the folder './resnet/resnet" 
 - Download roberta-base  https://huggingface.co/roberta-base/tree/main
 
 ## Requirement
 * torch
 * transformers
-* scikit-learn
-* opencv-python
 * tqdm
 
 
@@ -34,8 +32,8 @@ data/Twitter_image/twitter2017_images: Image data from the twitter2017 dataset
 ```
 bash train.sh
 ```
- If you want to train and test on the MASAD dataset,please be aware of modifying three labels to two labels in the relevant files.
+
  ## Acknowledgements
 - Most of the codes are based on the codes provided by [huggingface](https://github.com/huggingface/transformers).
-- 
+- Some code is based on the code of ITM  many thanks!  [ITM](https://github.com/NUSTM/ITM)
 
